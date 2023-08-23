@@ -3,7 +3,13 @@
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "primaryLocale": "en",
   "content": {
-    "address": "${{location_address}}",
+    "address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "${{location_address_line1}}",
+      "postalCode": "${{location_address_postal_code}}",
+      "region": "${{location_address_region}}"
+    },
     "addressHidden": false,
     "c_backgroundColor": "WHITE",
     "description": "Lorem ipsum [[name]] dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -64,27 +70,7 @@
       "details": "Lorem ipsum logo.",
       "image": {
         "alternateText": "Lorem ipsum logo.",
-        "height": 361,
-        "sourceUrl": "https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png",
-        "thumbnails": [
-          {
-            "height": 361,
-            "url": "https://a.mktgcdn.com/p/SeqPJQyAjwBUFkNxGq1X9Dr-irtWisCAJoM_eCEI2TU/361x361.png",
-            "width": 361
-          },
-          {
-            "height": 150,
-            "url": "https://a.mktgcdn.com/p/SeqPJQyAjwBUFkNxGq1X9Dr-irtWisCAJoM_eCEI2TU/150x150.png",
-            "width": 150
-          },
-          {
-            "height": 94,
-            "url": "https://a.mktgcdn.com/p/SeqPJQyAjwBUFkNxGq1X9Dr-irtWisCAJoM_eCEI2TU/94x94.png",
-            "width": 94
-          }
-        ],
-        "url": "https://a.mktgcdn.com/p/SeqPJQyAjwBUFkNxGq1X9Dr-irtWisCAJoM_eCEI2TU/361x361.png",
-        "width": 361
+        "url": "${{logo}}"
       }
     },
     "mainPhone": "+12129943900",
