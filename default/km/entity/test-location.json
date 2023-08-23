@@ -3,13 +3,7 @@
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "primaryLocale": "en",
   "content": {
-    "address": {
-      "city": "New York",
-      "countryCode": "US",
-      "line1": "61 9th Ave",
-      "postalCode": "10011",
-      "region": "NY"
-    },
+    "address": "${{location_address}}",
     "addressHidden": false,
     "c_backgroundColor": "WHITE",
     "description": "Lorem ipsum [[name]] dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -94,7 +88,7 @@
       }
     },
     "mainPhone": "+12129943900",
-    "name": "Local Business",
+    "name": "${{location_name}}",
     "paymentOptions": [
       "AMERICANEXPRESS",
       "DISCOVER",
