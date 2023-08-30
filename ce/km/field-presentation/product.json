@@ -183,12 +183,6 @@
     {
       "defaultCollapsed": true,
       "displayName": "Apparel-Specific Details",
-      "displayNameTranslations": [
-        {
-          "localeCode": "en",
-          "value": "Clothing-Specific Details"
-        }
-      ],
       "entryType": "SECTION",
       "fields": [
         {

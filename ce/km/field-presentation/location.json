@@ -93,12 +93,6 @@
     },
     {
       "displayName": "Contact, Websites, and Apps",
-      "displayNameTranslations": [
-        {
-          "localeCode": "en",
-          "value": "Contact, Websites and Apps"
-        }
-      ],
       "entryType": "SECTION",
       "fields": [
         {
@@ -290,12 +284,6 @@
     {
       "defaultCollapsed": true,
       "displayName": "Takeout and Delivery",
-      "displayNameTranslations": [
-        {
-          "localeCode": "en",
-          "value": "Takeaway and Delivery"
-        }
-      ],
       "entryType": "SECTION",
       "fields": [
         {
