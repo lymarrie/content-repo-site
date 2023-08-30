@@ -1,7 +1,7 @@
 {
   "$id": "test-location",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
-  "primaryLocale": "en",
+  "primaryLocale": "${{location_locale_code}}",
   "content": {
     "address": {
       "city": "New York",
