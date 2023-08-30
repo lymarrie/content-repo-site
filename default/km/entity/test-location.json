@@ -5,7 +5,7 @@
   "content": {
     "address": {
       "city": "New York",
-      "countryCode": "US",
+      "countryCode": "${{location_country_code}}",
       "line1": "${{location_address_line1}}",
       "postalCode": "${{location_address_postal_code}}",
       "region": "${{location_address_region}}"
